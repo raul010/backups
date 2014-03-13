@@ -1,0 +1,13 @@
+#!/bin/bash
+NC='\e[0m' # No Color
+green='\e[0;32m'
+light_green='\e[1;32m'
+cyan='\e[0;36m'
+light_blue='\e[1;34m'
+
+echo -e "
+${light_blue}> Making Deploy in Heroku:${NC}
+${cyan}- From: /home/raul/dev/works-py2/heroku-tests-django/tests-django/${NC}
+"
+cd /home/raul/dev/works-py2/ && /usr/local/bin/grunt deploy;
+cd -;

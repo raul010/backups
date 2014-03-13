@@ -1,0 +1,13 @@
+#!/bin/bash
+NC='\e[0m' # No Color
+green='\e[0;32m'
+light_green='\e[1;32m'
+cyan='\e[0;36m'
+light_blue='\e[1;34m'
+
+echo -e "
+${light_blue}> Remove .pyc recursively from:${NC}
+${cyan}`pwd`${NC}
+"
+find . -name '*.pyc' -delete;
+

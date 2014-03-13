@@ -1,0 +1,8 @@
+#!/bin/bash
+NC='\e[0m' # No Color
+green='\e[0;32m'
+light_green='\e[1;32m'
+cyan='\e[0;36m'
+light_blue='\e[1;34m'
+
+/usr/local/bin/desenvolvo-create-heroku-project && /usr/local/bin/desenvolvo-deploy-heroku

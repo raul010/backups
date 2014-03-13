@@ -1,0 +1,13 @@
+# First, ignore everything
+*
+# Now, whitelist anything that's a directory
+!*/
+# But not these files:
+!*sh-*
+# !*sh-create-and-deploy-heroku
+# !*sh-create-heroku
+# !*sh-deploy-to-heroku
+# !*sh-util-remove-pyc
+
+# But not these files:
+!.gitignore

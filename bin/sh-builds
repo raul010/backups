@@ -1,0 +1,14 @@
+#!/bin/bash
+NC='\e[0m' # No Color
+green='\e[0;32m'
+light_green='\e[1;32m'
+cyan='\e[0;36m'
+light_blue='\e[1;34m'
+
+echo -e "
+${light_blue}> Listen to auto-builds in:${NC}
+${cyan}/home/raul/dev/works-py2/tests-django/${NC}
+"
+cd /home/raul/dev/works-py2/tests-django/builds/ && /usr/local/bin/grunt;
+cd -;
+
